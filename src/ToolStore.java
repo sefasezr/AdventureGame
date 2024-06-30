@@ -31,9 +31,9 @@ public class ToolStore extends NormalLoc{
     }
 
     public int armorMenu(){
-        System.out.println("1- Hafif - <Para : 15 - Hasar : 1>");
-        System.out.println("2- Orta\t - <Para : 25 - Hasar : 3>");
-        System.out.println("3- Ağır\t - <Para : 40 - Hasar : 5>");
+        System.out.println("1- Hafif - <Para : 15 - Avoid : 1>");
+        System.out.println("2- Orta\t - <Para : 25 - Avoid : 3>");
+        System.out.println("3- Ağır\t - <Para : 40 - Avoid : 5>");
         System.out.println("4- Çıkış");
         System.out.print("Silah Seciniz : ");
         int selArmorID = scan.nextInt();

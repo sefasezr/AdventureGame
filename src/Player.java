@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Player {
-    private int damage,healthy,money,reHealty;
+    private int damage,healthy,money,rHealty;
     private String name,cName;
     private Inventory inv;
     Scanner scan = new Scanner(System.in);
@@ -52,7 +52,7 @@ public class Player {
         setDamage(dmg);
         setHealthy(healthy);
         setMoney(money);
-        setHealthy(reHealty);
+        setrHealty(healthy);
     }
 
 
@@ -104,11 +104,11 @@ public class Player {
         this.inv = inv;
     }
 
-    public int getReHealty() {
-        return reHealty;
+    public int getrHealty() {
+        return rHealty;
     }
 
-    public void setReHealty(int reHealty) {
-        this.reHealty = reHealty;
+    public void setrHealty(int rHealty) {
+        this.rHealty = rHealty;
     }
 }
